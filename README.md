@@ -4,11 +4,11 @@
 
 One-stage object detection is commonly implemented by optimizing two sub-tasks: object classification and localization, using heads with two parallel branches, which might lead to a certain level of spatial misalignment at prediction quality between the two tasks. In this work, we propose a Task-aligned One-stage Object Detection (TOOD) that explicitly aligns the two tasks in a learning-based manner. First, we design a novel task-aligned head which offers a better balance between learning task-interactive and task-specific features, as well as a greater flexibility to learn the alignment between the two tasks via a task-aligned predictor. Second, we propose task alignment learning to explicitly pull closer (or even unify) the optimal anchors for the two tasks during training via a designed sample assignment scheme and a task-aligned loss.  Extensive experiments are conducted on MS-COCO, where TOOD achieves a **51.1 AP** at single-model single-scale testing. This surpasses the recent one-stage detectors by a large margin, such as ATSS (47.7 AP), GFL (48.2 AP), and PAA (49.0 AP), with fewer parameters and FLOPs. Qualitative results also demonstrate the effectiveness of TOOD for better aligning the tasks of object classification and localization.
 
-### Method overview:
+### Method overview
 
 <div align=center><img src="resources/overview.png" width="500px"/></div>
 
-### Parallel head vs. T-head:
+### Parallel head vs. T-head
 ![method overview](resources/T-head.png)
 
 ## Prerequisites
