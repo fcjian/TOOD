@@ -7,7 +7,7 @@ One-stage object detection is commonly implemented by optimizing two sub-tasks: 
 ### Method overview:
 ![method overview](resources/overview.png)
 
-<img src="resources/overview.png" width="100px">
+<img src="resources/overview.png" width="500px">
 
 ### Parallel head vs. T-head:
 ![method overview](resources/T-head.png)
