@@ -60,7 +60,7 @@ Thanks MMDetection team for the wonderful open source project!
 If you find TOOD useful in your research, please consider citing:
 
 ```
-@inproceedings{feng2020tood,
+@inproceedings{feng2021tood,
     title={TOOD: Task-aligned One-stage Object Detection},
     author={Feng, Chengjian and Zhong, Yujie and Gao, Yu and Scott, Matthew R and Huang, Weilin},
     booktitle={ICCV},
