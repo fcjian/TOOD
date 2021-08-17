@@ -23,7 +23,7 @@ One-stage object detection is commonly implemented by optimizing two sub-tasks: 
 # and you have activated your virtual environment if needed.
 # and with COCO dataset in 'data/coco/'.
 
-./tools/dist_train.sh configs/tood/tood_r50_fpn_1x_coco.py 4 --validate
+./tools/dist_train.sh configs/tood/tood_r50_fpn_1x_coco.py 4
 ```
 
 ## Inference
