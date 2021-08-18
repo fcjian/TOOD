@@ -70,7 +70,7 @@ test_cfg = dict(
 # optimizer
 optimizer = dict(type='SGD', lr=0.01, momentum=0.9, weight_decay=0.0001)
 
-# custon hooks
+# custon hooks: HeadHook is defined in mmdet/core/utils/head_hook.py
 custom_hooks = [
     dict(type="HeadHook")
 ]
