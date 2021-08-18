@@ -1,4 +1,6 @@
-# TOOD: Task-aligned One-stage Object Detection (**ICCV 2021 Oral**)
+
+# TOOD: Task-aligned One-stage Object Detection (**ICCV 2021 Oral**)  
+[Paper](https://arxiv.org/abs/2108.07755)
 
 ## Introduction
 
