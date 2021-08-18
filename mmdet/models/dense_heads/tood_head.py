@@ -49,6 +49,9 @@ class TaskDecomposition(nn.Module):
         weight = self.relu(self.la_conv1(avg_feat))
         weight = self.sigmoid(self.la_conv2(weight))
 
+        # here we first compute the product between layer attention weight and conv weight,
+        # and then compute the convolution between new conv weight and feature map,
+        # in order to save memory and FLOPs.
         conv_weight = weight.reshape(b, 1, self.stacked_convs, 1) * \
                           self.reduction_conv.conv.weight.reshape(1, self.feat_channels, self.stacked_convs, self.feat_channels)
         conv_weight = conv_weight.reshape(b, self.feat_channels, self.in_channels)
@@ -264,6 +267,7 @@ class TOODHead(AnchorHead):
             feat (Tensor): Feature
             offset (Tensor): Spatial offset for for feature sampliing
         """
+        # it is an equivalent implementation of bilinear interpolation
         b, c, h, w = feat.shape
         weight = feat.new_ones(c, 1, 1, 1)
         y = deform_conv2d(feat, offset, weight, 1, 0, 1, c, c)
