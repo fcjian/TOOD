@@ -62,7 +62,7 @@ class TaskAlignedAssigner(BaseAssigner):
 
         Args:
             scores (Tensor): predicted class probability, shape(n, 80)
-            decode_bboxes (Tensor): predicted bounding boxes, shape(n, 80)
+            decode_bboxes (Tensor): predicted bounding boxes, shape(n, 4)
             anchors (Tensor): pre-defined anchors, shape(n, 4).
             num_level_bboxes (List): num of bboxes in each level
             gt_bboxes (Tensor): Groundtruth boxes, shape (k, 4).
