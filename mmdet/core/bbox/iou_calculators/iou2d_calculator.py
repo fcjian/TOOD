@@ -209,10 +209,10 @@ def bbox_overlaps(bboxes1, bboxes2, mode='iou', is_aligned=False, eps=1e-6):
         else:
             return bboxes1.new(batch_shape + (rows, cols))
 
-    area1 = (bboxes1[..., 2] - bboxes1[..., 0]) * (
-        bboxes1[..., 3] - bboxes1[..., 1])
-    area2 = (bboxes2[..., 2] - bboxes2[..., 0]) * (
-        bboxes2[..., 3] - bboxes2[..., 1])
+    area1 = fp16_clamp((bboxes1[..., 2] - bboxes1[..., 0]), min=0) * fp16_clamp((
+        bboxes1[..., 3] - bboxes1[..., 1]), min=0)
+    area2 = fp16_clamp((bboxes2[..., 2] - bboxes2[..., 0]), min=0) * fp16_clamp((
+        bboxes2[..., 3] - bboxes2[..., 1]), min=0)
 
     if is_aligned:
         lt = torch.max(bboxes1[..., :2], bboxes2[..., :2])  # [B, rows, 2]
