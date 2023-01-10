@@ -3,9 +3,9 @@
 [Paper](https://arxiv.org/abs/2108.07755) &nbsp; &nbsp; [Website](https://fcjian.github.io/tood)
 
 ## News
-- [YOLOv6](https://github.com/meituan/YOLOv6) adopts the Task Alignment Learning (TAL) of TOOD! 
-
-- [PP-YOLOE](https://github.com/PaddlePaddle/PaddleDetection/tree/release/2.5/configs/ppyoloe) adopts the Task Alignment Learning (TAL) and an efficient version of the Task-aligned Head (T-Head)!
+* 【2023/01】 [YOLOv8](https://v8docs.ultralytics.com) adopts the Task Alignment Learning (TAL) of TOOD!
+* 【2022/09】 [YOLOv6](https://github.com/meituan/YOLOv6) adopts the Task Alignment Learning (TAL) of TOOD! 
+* 【2022/03】 [PP-YOLOE](https://github.com/PaddlePaddle/PaddleDetection/tree/release/2.5/configs/ppyoloe) adopts the Task Alignment Learning (TAL) and an efficient version of the Task-aligned Head (T-Head)!
 
 ## Introduction
 
