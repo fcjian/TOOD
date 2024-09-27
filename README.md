@@ -3,8 +3,10 @@
 [Paper](https://arxiv.org/abs/2108.07755) &nbsp; &nbsp; [Website](https://fcjian.github.io/tood)
 
 ## News
+* 【2024/05】 [YOLOv10](https://v8docs.ultralytics.com) adopts the normalization metric of the Task Alignment Learning (TAL)!
 * 【2023/01】 [YOLOv8](https://v8docs.ultralytics.com) adopts the Task Alignment Learning (TAL) of TOOD!
 * 【2022/09】 [YOLOv6](https://github.com/meituan/YOLOv6) adopts the Task Alignment Learning (TAL) of TOOD! 
+* 【2022/08】 [YOLOX-PAI](https://github.com/alibaba/EasyCV) adopts the Task-aligned Head (T-Head) of TOOD!
 * 【2022/03】 [PP-YOLOE](https://github.com/PaddlePaddle/PaddleDetection/tree/release/2.5/configs/ppyoloe) adopts the Task Alignment Learning (TAL) and an efficient version of the Task-aligned Head (T-Head)!
 
 ## Introduction
