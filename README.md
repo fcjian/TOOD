@@ -4,6 +4,7 @@
 
 ## News
 * 【2024/05】 [YOLOv10](https://v8docs.ultralytics.com) adopts the normalization metric of the Task Alignment Learning (TAL)!
+* 【2024/01】 [YOLO-World](https://github.com/AILab-CVC/YOLO-World) adopts the task-aligned label assignment of TOOD!
 * 【2023/01】 [YOLOv8](https://v8docs.ultralytics.com) adopts the Task Alignment Learning (TAL) of TOOD!
 * 【2022/09】 [YOLOv6](https://github.com/meituan/YOLOv6) adopts the Task Alignment Learning (TAL) of TOOD! 
 * 【2022/08】 [YOLOX-PAI](https://github.com/alibaba/EasyCV) adopts the Task-aligned Head (T-Head) of TOOD!
